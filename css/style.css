@@ -1,23 +1,24 @@
 body {
-  background pink;
+  background: pink;
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* corrected property name to font-size */
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal; /* added semicolon after font-weight */
   font-style: italic;
 }
 
 .completed {
-  font-family: 12px;
+  font-family: Arial, sans-serif; /* corrected font-family value */
+  font-size: 12px; /* changed font-size value to a valid size */
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc; /* corrected property name to background */
   text-decoration: underline;
 }
